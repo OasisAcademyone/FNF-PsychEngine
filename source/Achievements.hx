@@ -83,7 +83,8 @@ class Achievements {
 		achievementsStuff = achievementShits;
 
 		#if MODS_ALLOWED
-		//reloadAchievements(); //custom achievements do not work. will add once it doesn't do the duplication bug -bb
+		reloadAchievements();
+		
 		#end
 
 		if(FlxG.save.data != null) {
