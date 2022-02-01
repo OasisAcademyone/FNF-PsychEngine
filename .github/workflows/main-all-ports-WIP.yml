@@ -1,6 +1,5 @@
 name: Build-All
 
-# Controls when the action will run. 
   push:
     branches: [ master, main ]
   pull_request:
