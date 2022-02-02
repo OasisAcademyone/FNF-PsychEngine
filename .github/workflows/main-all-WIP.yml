@@ -236,7 +236,6 @@ jobs:
           haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
           haxelib install hxcpp-debug-server
           haxelib list
-        shell: cmd
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: Compile
@@ -282,7 +281,6 @@ jobs:
           haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
           haxelib install hxcpp-debug-server
           haxelib list
-        shell: cmd
       - name: Create APIStuff
         run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: Compile
